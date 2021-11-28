@@ -63,6 +63,7 @@ img {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .visually-hidden {
