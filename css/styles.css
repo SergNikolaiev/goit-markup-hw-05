@@ -100,8 +100,8 @@ header {
 }
 
 .header-item-menu {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-item-menu:not(:last-child) {
@@ -124,8 +124,8 @@ header {
 
 .list-navigation {
   position: relative;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -306,10 +306,14 @@ Section 3  ==========*/
   text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
-
   width: 100%;
 
   background: rgba(47, 48, 58, 0.8);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -482,7 +486,7 @@ Section 3  ==========*/
 
 .footer-text {
   margin-bottom: 20px;
-
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -537,7 +541,7 @@ Section 3  ==========*/
 .guide-list-btn {
   background: #f5f4fa;
   border-radius: 4px;
-
+  border: no;
   color: var(--second-btn-color);
   background-color: var(--second-btn-background-color);
   font-family: inherit;
@@ -683,8 +687,8 @@ Section 3  ==========*/
 }
 
 .is-hidden .modal {
-  transform: translateX(1000px) skew(60deg);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(1500px) skew(75deg);
+  transition: transform 500ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .is-hidden {
